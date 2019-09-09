@@ -1,0 +1,9 @@
+// public vue js transitions:
+.route-enter-active, .route-leave-active{transition: opacity .2s}
+.route-enter, .route-leave-to{opacity: 0;}
+
+.fast-enter-active, .fast-leave-active{transition: opacity .2s}
+.fast-enter, .fast-leave-to{opacity: 0;}
+
+.fade-enter-active, .fade-leave-active{transition: opacity .5s}
+.fade-enter, .fade-leave-to{opacity: 0;}

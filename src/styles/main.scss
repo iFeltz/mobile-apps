@@ -1,0 +1,11 @@
+@import 'utilities';
+@import 'fonts';
+@import 'vue-svgicon';
+@import 'vue-transitions';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $museo;
+  font-size: 15px;
+}
